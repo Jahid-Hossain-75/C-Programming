@@ -8,6 +8,7 @@ void main() {
     printf("Enter the no of element: ");
     scanf("%d", &n);
     
+    printf("Enter the Element:\n");
     for(i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
@@ -16,6 +17,7 @@ void main() {
     scanf("%d", &pos);
     
     // Delete array number
+    printf("After Deleting Element:\n");
     if(pos>n+1){
         printf("Deletion not posible\n");
     }else{
